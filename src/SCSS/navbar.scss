@@ -1,5 +1,6 @@
 #container-navbar {
   position: fixed;
+  z-index: 10;
   top: 0;
   left: 0;
   display: flex;
@@ -32,9 +33,9 @@
   }
 }
 #container-logo-nav {
-  position: absolute;
+  position: fixed;
+  z-index: 11;
   background-color: transparent;
-  z-index: 1;
   top: 10px;
   left: 10px;
   img {

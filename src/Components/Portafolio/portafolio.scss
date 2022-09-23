@@ -1,9 +1,12 @@
 @import "../../SCSS/index.scss";
-
+.portafoliopage {
+  position: relative;
+  top: 85px;
+  width: 90vw;
+}
 #container-titulo-portafolio {
   @include container(90vw, 18rem);
   position: relative;
-  top: 90px;
   font-size: 80px;
   display: flex;
   justify-content: center;

@@ -1,8 +1,14 @@
 @import "../../SCSS/index.scss";
+.mainpage {
+  position: relative;
+  display: block;
+  top: 85px;
+  width: 90vw;
+  justify-content: center;
+}
 #container-titulo-main {
   @include container(90vw, 18rem);
   position: relative;
-  top: 90px;
   font-size: 80px;
   display: flex;
   justify-content: center;
@@ -10,4 +16,19 @@
   background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
   background-repeat: no-repeat;
   background-size: cover;
+}
+#contenedor-info {
+  @include container(80vw, 10rem);
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  padding: 0;
+  border-radius: 10px;
+  & .contenedor-texto {
+    padding: 20px;
+  }
+  img {
+    height: 10rem;
+    border-radius: 10px 0 0 10px;
+  }
 }
