@@ -1,0 +1,6 @@
+@mixin container($ancho, $alto) {
+  background-color: #202020;
+  border-radius: 10px;
+  width: $ancho;
+  height: $alto;
+}

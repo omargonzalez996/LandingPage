@@ -1,5 +1,6 @@
 @import "../../SCSS/index.scss";
-#container-titulo-main {
+
+#container-titulo-contacto {
   @include container(90vw, 18rem);
   position: relative;
   top: 90px;
@@ -7,7 +8,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+  //background-image: url("../../assets/backo.png");
+  //background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+  background: linear-gradient(90deg, #fdbb2d 0%, #3a1c71 100%);
   background-repeat: no-repeat;
   background-size: cover;
 }
